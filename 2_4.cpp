@@ -10,7 +10,7 @@ int main()
 	int month = 0;
 
 	cout << "Enter your age: ";
-	while(!(cin >> year) && (0 <= year))	//check if the input is a number
+	while(!(cin >> year) || (year < 0))	//check if the input is a positive number
 	{
 		cout << "Error!" << endl << "Please enter a positive number: ";
 		cin.clear();	//set the ios_base::goodbit
@@ -22,7 +22,7 @@ int main()
 	cout << "You entered " << year << endl;
 	cout << year << " years includes " << month << " month." << endl;
 	
-	system("pause");
+//	system("pause");
 	return 0;
 }
 
