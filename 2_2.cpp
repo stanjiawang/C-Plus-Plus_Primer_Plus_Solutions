@@ -14,7 +14,7 @@ int main()
 	{
 		cout << "Error!" << endl << "Please enter a number: ";
 		cin.clear();	//set the ios_base::goodbit
-		cin.sync();		//clear the input stream
+		cin.sync();	//clear the input stream
 	}
 
 	distanceInYard = longToYard(distanceInLong);
