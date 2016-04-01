@@ -22,7 +22,7 @@ int main()
 	cout << "You entered " << distanceInLong << endl;
 	cout << distanceInLong << " long equals to " << distanceInYard << " yard." << endl;
 	
-//system("pause");
+//	system("pause");
 	return 0;
 }
 
