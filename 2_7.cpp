@@ -12,9 +12,9 @@ int main()
 	cout << "Enter the number of hours: ";
 	while(!(cin >> hours) || (0 > hours) || (24 < hours))	//check if the input is a float
 	{
-			cout << "Error!" << endl << "Please enter a positive number between 0 and 24: ";
-			cin.clear();	//set the ios_base::goodbit
-			cin.sync();	//clear the input stream
+		cout << "Error!" << endl << "Please enter a positive number between 0 and 24: ";
+		cin.clear();	//set the ios_base::goodbit
+		cin.sync();	//clear the input stream
 	}
 
 	cout << "Enter the number of minutes: ";
@@ -27,7 +27,7 @@ int main()
 
 	showTime(hours, minutes);
 	
-	system("pause");
+//	system("pause");
 	return 0;
 }
 
