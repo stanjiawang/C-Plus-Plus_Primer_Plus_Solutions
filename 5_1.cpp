@@ -7,7 +7,6 @@ int main()
 	int min = 0;
 	int max = 0;
 	int sum = 0;
-	int length = 0;
 
 	cout << "Please enter a number: ";
 	while(!(cin >> min))
