@@ -8,7 +8,7 @@ const int monthsPerYear = 12;
 int main()
 {
 	string months[monthsPerYear] = {"January", "Februaby", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-	int sales[12] = {0};
+	int sales[monthsPerYear] = {0};
 
 	for(int i = 0; i < monthsPerYear; i++)
 	{
