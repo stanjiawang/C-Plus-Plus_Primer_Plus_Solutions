@@ -26,6 +26,6 @@ int main()
 		cout << "The sales for " << months[j] << " is " << sales[j] << endl;
 	}
 
-	system("pause");
+//	system("pause");
 	return 0;
 }
