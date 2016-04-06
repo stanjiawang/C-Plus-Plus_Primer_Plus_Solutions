@@ -48,7 +48,8 @@ int main()
 	{
 		cout << carCatalog[j].year << " " << carCatalog[j].manufacture << endl;
 	}
-
-	system("pause");
+	
+	delete [] carCatalog;
+//	system("pause");
 	return 0;
 }
