@@ -20,7 +20,6 @@ int main()
 			cout << ch << endl;
 		}
 	}
-	system("pause");
-
+//	system("pause");
 	return 0;
 }
