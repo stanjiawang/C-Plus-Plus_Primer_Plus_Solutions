@@ -31,7 +31,7 @@ int main()
 			cout <<  "The program shouldn't get here!" << endl;
 	}
 	
-	system("pause");
+//	system("pause");
 
 	return 0;
 }
