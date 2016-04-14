@@ -33,7 +33,7 @@ int main()
 	cout << "The average of the " << count << " numbers is " << average << endl;
 	cout << num << " number(s) are large than the average" << endl;  
 
-	system("pause");
+//	system("pause");
 
 	return 0;
 }
